@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[BayAreaCarGuy]]></title>
+        <description><![CDATA[BayAreaCarGuy]]></description>
+        <link>http://github.com/dylang/node-rss</link>
+        <generator>The Grid</generator>
+        <lastBuildDate>Fri, 13 Nov 2015 20:41:12 GMT</lastBuildDate>
+        <atom:link href="undefinedrss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Marin Honda]]></title>
+            <description><![CDATA[<article><h1>Marin Honda</h1><p>L James Johnson is now Internet Sales Manager at Marin Honda in San Rafael</p></article>]]></description>
+            <link>undefinedmarin-honda/index.html</link>
+            <guid isPermaLink="false">d9398fb5-15c3-41e2-9a12-28e9022139eb</guid>
+            <pubDate>Fri, 13 Nov 2015 20:40:37 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
