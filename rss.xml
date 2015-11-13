@@ -2,16 +2,23 @@
     <channel>
         <title><![CDATA[BayAreaCarGuy]]></title>
         <description><![CDATA[BayAreaCarGuy]]></description>
-        <link>http://github.com/dylang/node-rss</link>
+        <link>https://thegrid.ai/bayareacarguy/</link>
         <generator>The Grid</generator>
-        <lastBuildDate>Fri, 13 Nov 2015 20:41:12 GMT</lastBuildDate>
-        <atom:link href="undefinedrss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Fri, 13 Nov 2015 20:58:33 GMT</lastBuildDate>
+        <atom:link href="https://thegrid.ai/bayareacarguy/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Marin Honda]]></title>
             <description><![CDATA[<article><h1>Marin Honda</h1><p>L James Johnson is now Internet Sales Manager at Marin Honda in San Rafael</p></article>]]></description>
-            <link>undefinedmarin-honda/index.html</link>
+            <link>https://thegrid.ai/bayareacarguy/marin-honda/index.html</link>
             <guid isPermaLink="false">d9398fb5-15c3-41e2-9a12-28e9022139eb</guid>
             <pubDate>Fri, 13 Nov 2015 20:40:37 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Online Reviews for L. James Johnson]]></title>
+            <description><![CDATA[<h1>Online Reviews for L. James Johnson</h1>]]></description>
+            <link>https://thegrid.ai/bayareacarguy/online-reviews-for-l-james-johnson/index.html</link>
+            <guid isPermaLink="false">0226a6ce-398f-4689-9a5d-d09d7ec97d7d</guid>
+            <pubDate>Fri, 13 Nov 2015 20:58:32 GMT</pubDate>
         </item>
     </channel>
 </rss>
