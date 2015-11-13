@@ -1,6 +1,6 @@
 name: BayAreaCarGuy
 favicon: null
-layout_spectrum: 0.508849942823872
+layout_spectrum: 0.75145
 typography_spectrum: 0.5760742442216724
 cta:
   domain: null
@@ -15,9 +15,14 @@ opengraph:
   type: null
   appId: null
 color:
-  brandColors: []
-  brandStrength: 0.03321884339675307
+  brandColors:
+    - '#ffffff'
+    - '#050702'
+    - '#5084b5'
+    - '#ea8956'
+    - '#fcc697'
+  brandStrength: 0.5
   lightness: 0.5327914140652865
-  saturation: 0.9926075644325465
+  saturation: 0.8125
   rhythmicContrast: 0.9599220545496792
 purpose: []
