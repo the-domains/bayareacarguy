@@ -6,17 +6,17 @@ inLanguage: null
 starred: true
 keywords: []
 description: L James Johnson is now Internet Sales Manager at Marin Honda in San Rafael
-datePublished: '2015-11-13T20:40:37.514Z'
-dateModified: '2015-11-13T20:39:33.353Z'
+datePublished: '2015-11-14T05:30:20.639Z'
+dateModified: '2015-11-14T05:30:06.239Z'
 title: Marin Honda
+sourcePath: _posts/2015-11-13-marin-honda.md
+published: true
 authors: []
 publisher:
   name: null
   domain: null
   url: null
   favicon: null
-sourcePath: _posts/2015-11-13-marin-honda.md
-published: true
 url: marin-honda/index.html
 _type: Article
 
