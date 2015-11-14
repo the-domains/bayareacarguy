@@ -2,6 +2,7 @@ name: BayAreaCarGuy
 favicon: null
 layout_spectrum: 0.99422
 typography_spectrum: 0.6281
+title: BayAreaCarGuy.com
 cta:
   domain: null
   bucket: null
