@@ -1,4 +1,4 @@
-<!DOCTYPE HTML><html class="exporting wf-loading"><head><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/><title>Online Reviews for L. James Johnson - BayAreaCarGuy</title><link href="../rss.xml" title="BayAreaCarGuy.com feed" rel="alternate" type="application/rss+xml"/><meta name="generator" content="The Grid taylor/0.16.25"><meta name="the-grid-solution" content="1c2e4ec7-ea20-4175-8003-dd383abfb223"><style href="./css/scale/mini.css" media="(max-width: 19.9376em)" rel="stylesheet">@media (max-width: 15.625em){html{font-size:3.09375em !important}}
+<!DOCTYPE HTML><html class="exporting wf-loading"><head><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/><title>Online Reviews for L. James Johnson - BayAreaCarGuy</title><link href="../rss.xml" title="BayAreaCarGuy.com feed" rel="alternate" type="application/rss+xml"/><meta name="generator" content="The Grid taylor/0.17.3"><meta name="the-grid-solution" content="cdfe461d-31b3-42ec-b160-cdb05114b4d7"><style href="./css/scale/mini.css" media="(max-width: 19.9376em)" rel="stylesheet">@media (max-width: 15.625em){html{font-size:3.09375em !important}}
 @media (min-width: 15.6875em)and (max-width: 15.75em){	html{font-size:3.28125em !important}}
 @media (min-width: 15.8125em)and (max-width: 16.25em){	html{font-size:3.375em !important}}
 @media (min-width: 16.3125em)and (max-width: 16.6875em){html{font-size:3.46875em !important}}
@@ -202,6 +202,14 @@ body {
 }
 .stack {
   z-index: 1;
+  transition: transform 0.3s ease-out;
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+}
+.group,
+.aside,
+.decoration {
+  transition: transform 0.3s ease-out;
+  -webkit-transition: -webkit-transform 0.3s ease-out;
 }
 picture {
   display: inline-block;
@@ -250,6 +258,9 @@ a:active {
   transition: color 0.1s ease-in, background-color 0.1s ease-out;
   -webkit-transition: color 0.1s ease-in, background-color 0.1s ease-out;
 }
+a.aside {
+  display: inline-block;
+}
 html.exporting a {
   transition: none;
 }
@@ -259,11 +270,21 @@ html.exporting a {
 .media > a {
   display: inline-block;
 }
+.media iframe {
+  transition: 0.3s opacity ease-in;
+  -webkit-transition: 0.3s opacity ease-in;
+}
 h1 a,
 h2 a,
 h3 a {
   font-weight: inherit;
   letter-spacing: inherit;
+}
+a {
+  -webkit-box-decoration-break: clone;
+  -ms-box-decoration-break: clone;
+  -moz-box-decoration-break: clone;
+  box-decoration-break: clone;
 }
 .text-decoration {
   -webkit-box-decoration-break: clone;
@@ -277,36 +298,50 @@ h3 a {
   margin-left: 1.5em;
 }
 .decoration {
-  position: relative;
   pointer-events: none;
+}
+.svg {
+  position: relative;
   background-color: currentColor;
 }
-.decoration > svg {
+.svg > svg {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
 }
-.decoration.connector > svg {
+.svg.connector > svg {
   width: 109%;
   height: 109%;
   margin-left: -2%;
 }
-.decoration path,
-.decoration ellipse,
-.decoration rect,
-.decoration polygon,
-.decoration circle {
+.svg path,
+.svg ellipse,
+.svg rect,
+.svg polygon,
+.svg circle {
   fill: currentColor;
 }
-.decoration mpath,
-.decoration line,
-.decoration polyline {
+.svg mpath,
+.svg line,
+.svg polyline {
   stroke: currentColor;
 }
-.svg.decoration {
+.svg {
   background-color: transparent;
+}
+.revealed .play.svg:after {
+  display: block;
+  width: 40px;
+  height: 40px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  margin-top: -20px;
+  margin-left: -20px;
+  background-color: currentColor;
+  content: "";
 }
 .colors-style-aside-border .publisher,
 .colors-style-aside-border .author {
@@ -1113,7 +1148,7 @@ wbr.w1800{ display: block }
  #u-059bdda1-e952-400c-98d9-3573888ff9ba-g-textual-d-separator-desktop {
 display: none;
 }
-}</style></head><body><div class="layout-system rust mobile" id="page-b89264e8-97a9-4089-9df7-06dec72110b9"><section kind="layout" style="position: relative" sequence="one" role="header" diff_index="0" index="one" class="layout one i first_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_short_headline w_short_title layout one" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-mobile-l-one"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout header layout one" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-mobile-l-one-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="article" diff_index="0" index="one" class="layout one i w_headline w_title w_paragraph w_text w_separator w_decoration w_leader w_short_headline w_short_title w_long_paragraph w_long_text layout one" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-mobile-l-one-2"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_texts colors-use-same-as-previous layout one i first_layout last_layout article layout one" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-mobile-l-one-2-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="footer" diff_index="0" index="one" class="layout one i last_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_short_headline w_short_title layout one" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-mobile-l-one-3"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout footer layout one" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-mobile-l-one-3-l-one"></div><style id="u-b89264e8-97a9-4089-9df7-06dec72110b9-color">body{background-color: rgba(249, 250, 248, 1)}</style></section><article subject="panel" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_center uninverted vertical collapsed full line_padding_aside_inside text_width_full group_h_align_none text_align_center flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_small panel stack heading i first_panel last_panel w_headline w_title w_decoration w_short_headline w_short_title stack heading" itemid="u-page-nav" itemtype="nav" diff_index="2" index="heading" kind="stack" score="1.875" missed="0.125" tag="article" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-nav"><div kind="group" index="heading" class="group heading group heading" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-nav-g-heading"><h1 kind="title" index="headline" class="short short_headline short_title title headline vfld-leader vfld-trailer title headline" specificity="0.25" itemprop="title" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-nav-g-heading-t-headline"><a class="text-decoration" href="../index.html" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-nav-g-heading-t-headline-a">BayAreaCarGuy.com</a></h1></div></article><article subject="chapter" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch uninverted vertical collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_large chapter stack textual i first_chapter w_headline w_title w_paragraph w_text w_separator w_decoration w_short_headline w_short_title w_long_paragraph w_long_text stack textual" itemid="059bdda1-e952-400c-98d9-3573888ff9ba" itemtype="text" diff_index="4" index="textual" kind="stack" score="5.625" missed="0.375" tag="article" id="u-059bdda1-e952-400c-98d9-3573888ff9ba"><div kind="group" index="textual" class="group textual group textual" id="u-059bdda1-e952-400c-98d9-3573888ff9ba-g-textual"><h1 kind="title" index="headline" class="short short_headline short_title title headline vfld-leader title headline" specificity="0.25" itemprop="title" id="u-059bdda1-e952-400c-98d9-3573888ff9ba-g-textual-t-headline"><span class="text-decoration" id="u-059bdda1-e952-400c-98d9-3573888ff9ba-g-textual-t-headline-span">Online Reviews <wbr class="w480 w960"></wbr>for L. James <wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>Johnson</span></h1><div kind="decoration" index="separator" class="decoration separator decoration separator svg" id="u-059bdda1-e952-400c-98d9-3573888ff9ba-g-textual-d-separator-desktop"><?xml version="1.0" encoding="utf-8"?>
+}</style></head><body><div class="layout-system rust mobile" id="page-b89264e8-97a9-4089-9df7-06dec72110b9"><section kind="layout" style="position: relative" sequence="one" role="header" diff_index="0" index="one" class="layout one i first_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_short_headline w_short_title layout one" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-mobile-l-one"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout header layout one" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-mobile-l-one-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="article" diff_index="0" index="one" class="layout one i w_headline w_title w_paragraph w_text w_separator w_decoration w_leader w_short_headline w_short_title w_long_paragraph w_long_text layout one" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-mobile-l-one-2"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_texts colors-use-same-as-previous layout one i first_layout last_layout article layout one" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-mobile-l-one-2-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="footer" diff_index="0" index="one" class="layout one i last_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_short_headline w_short_title layout one" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-mobile-l-one-3"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout footer layout one" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-mobile-l-one-3-l-one"></div><style id="u-b89264e8-97a9-4089-9df7-06dec72110b9-color">body{background-color: rgba(249, 250, 248, 1)}</style></section><article subject="panel" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_center uninverted vertical collapsed full line_padding_aside_inside text_width_full group_h_align_none text_align_center flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_small panel stack heading i first_panel last_panel w_headline w_title w_decoration w_short_headline w_short_title stack heading" itemid="u-page-nav" itemtype="nav" diff_index="2" index="heading" kind="stack" score="1.875" missed="0.125" tag="article" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-nav"><div kind="group" index="heading" class="group heading group heading" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-nav-g-heading"><h1 kind="title" index="headline" class="short short_headline short_title title headline vfld-leader vfld-trailer title headline" specificity="0.25" itemprop="title" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-nav-g-heading-t-headline"><a class="text-decoration" href="../index.html" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-nav-g-heading-t-headline-a">BayAreaCarGuy.com</a></h1></div></article><article subject="chapter" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch uninverted vertical collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_large chapter stack textual i first_chapter w_headline w_title w_paragraph w_text w_separator w_decoration w_short_headline w_short_title w_long_paragraph w_long_text stack textual" itemid="059bdda1-e952-400c-98d9-3573888ff9ba" itemtype="text" diff_index="4" index="textual" kind="stack" score="1.625" missed="0.375" tag="article" id="u-059bdda1-e952-400c-98d9-3573888ff9ba"><div kind="group" index="textual" class="group textual group textual" id="u-059bdda1-e952-400c-98d9-3573888ff9ba-g-textual"><h1 kind="title" index="headline" class="short short_headline short_title title headline vfld-leader title headline" specificity="0.25" itemprop="title" id="u-059bdda1-e952-400c-98d9-3573888ff9ba-g-textual-t-headline"><span class="text-decoration" id="u-059bdda1-e952-400c-98d9-3573888ff9ba-g-textual-t-headline-span">Online Reviews <wbr class="w480 w960"></wbr>for L. James <wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>Johnson</span></h1><div kind="decoration" index="separator" class="decoration separator decoration separator svg" id="u-059bdda1-e952-400c-98d9-3573888ff9ba-g-textual-d-separator-desktop"><?xml version="1.0" encoding="utf-8"?>
 
 <svg preserveAspectRatio="none" id="u-059bdda1-e952-400c-98d9-3573888ff9ba-g-textual-d-separator-desktop-svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 72 72" enable-background="new 0 0 72 72" xml:space="preserve">
@@ -1131,7 +1166,7 @@ display: none;
 	 viewBox="0 0 72 72" enable-background="new 0 0 72 72" xml:space="preserve">
 <rect fill="#808285" width="72" height="72"/>
 </svg>
-</div></div></article><article subject="chapter" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch uninverted vertical collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_article chapter stack column i w_paragraph w_text w_long_paragraph w_long_text stack column" itemid="4b7c21d7-eeda-4497-9d62-f2acaa8675b4" itemtype="text" diff_index="1" index="column" kind="stack" score="2.625" missed="0.375" tag="article" id="u-4b7c21d7-eeda-4497-9d62-f2acaa8675b4"><div kind="group" index="column" class="group column group column" id="u-4b7c21d7-eeda-4497-9d62-f2acaa8675b4-g-column"><div kind="text" index="paragraph" class="text-decoration long long_paragraph long_text text paragraph vfld-leader vfld-trailer text paragraph" specificity="0.25" itemprop="text" id="u-4b7c21d7-eeda-4497-9d62-f2acaa8675b4-g-column-t-paragraph"><p><span class="first-letter">I</span> want to show my appreciation for James Johnson. I first <wbr class="w480 w960"></wbr>leased a car from him three <wbr class="w1799"></wbr>years <wbr class="w481 w961"></wbr>ago and remember how <wbr class="w480 w960 w1800"></wbr>helpful he was. When it came time to get another car for me, <wbr class="w480 w960 w1799"></wbr>as well <wbr class="w481 w961"></wbr>as one for my daughter, I returned for James' help. <wbr class="w480 w960 w1800"></wbr>Again, his integrity, willingness <wbr class="w1799"></wbr>to go the <wbr class="w481 w961"></wbr>extra miles, and his <wbr class="w480 w960"></wbr>gentle manner made what is usually a stressful situation <wbr class="w480 w960 w1799 w1800"></wbr>extremely <wbr class="w481 w961"></wbr>easy. </p><p><em data-grid-id="b605e749-31f2-420f-91e9-71b3d7caec04"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>Letter to the General Manager - June 2015</em></p><p><em data-grid-id="00ac7f8b-701b-46c4-b7a1-f43bc96de9b0"></em></p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>I</span> want to thank you again for such a seamless car-looking <wbr class="w480 w960"></wbr>and buying experience! I am <wbr class="w481 w961 w1799"></wbr>thoroughly spoiled, and now <wbr class="w480 w960 w1800"></wbr>forever ruined if I attempt it without you! If only every <wbr class="w480 w960"></wbr>saleman <wbr class="w481 w961 w1799"></wbr>could have the intelligence, patience, and heart you <wbr class="w480 w960"></wbr>bring!</p><p><em data-grid-id="ae80cd57-b9ed-4bda-b7d9-c131e8a7ef62"></em></p></div></div></article><article subject="chapter" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch uninverted vertical collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_article chapter stack column i w_paragraph w_text w_long_paragraph w_long_text stack column" itemid="f0f14b68-94f0-407f-9558-08efa524a885" itemtype="text" diff_index="1" index="column" kind="stack" score="2.625" missed="0.375" tag="article" id="u-f0f14b68-94f0-407f-9558-08efa524a885"><div kind="group" index="column" class="group column group column" id="u-f0f14b68-94f0-407f-9558-08efa524a885-g-column"><div kind="text" index="paragraph" class="text-decoration long long_paragraph long_text text paragraph vfld-leader vfld-trailer text paragraph" specificity="0.25" itemprop="text" id="u-f0f14b68-94f0-407f-9558-08efa524a885-g-column-t-paragraph"><p><span class="first-letter">S</span>o happy we bought here. You can read my other reviews on <wbr class="w480 w960"></wbr>the horrible car dealers we <wbr class="w481 w961 w1799"></wbr>experienced prior to this. We just <wbr class="w480 w960 w1800"></wbr>bought a brand new civic, James was our sales guy. <wbr class="w1799"></wbr>Soooo <wbr class="w480 w481 w960 w961"></wbr>nice, and I think he should have some sort of best car <wbr class="w480 w960 w1800"></wbr>salesman ever! The dealer is <wbr class="w1799"></wbr>nice <wbr class="w481 w961"></wbr>clean, and our son enjoyed <wbr class="w480 w960"></wbr>the free popcorn. Just an awesome experience here. We <wbr class="w1799"></wbr>will <wbr class="w480 w960 w1800"></wbr>be <wbr class="w481 w961"></wbr>back when we need a new car.</p><p><em data-grid-id="fea3523c-61b1-467a-8bad-acf5d2a7aeb9"></em></p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>B</span>uying my Honda Accord was A very nice experience for me <wbr class="w480 w960"></wbr>due to James Johnson that <wbr class="w481 w961 w1799"></wbr>answered all of the many <wbr class="w480 w960 w1800"></wbr>questions I had about cars and help me find the right car ; <wbr class="w480 w960"></wbr>then he <wbr class="w481 w961 w1799"></wbr>helped me to understanding the security features, the <wbr class="w480 w960 w1800"></wbr>electronic devices and gadgets in <wbr class="w1799"></wbr>the <wbr class="w481 w961"></wbr>car and taught me how <wbr class="w480 w960"></wbr>to use them. He had patience and kindness, even after the <wbr class="w1800"></wbr>car <wbr class="w480 w960 w1799"></wbr>was <wbr class="w481 w961"></wbr>sold he kept helping me.</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>S</span>o I will recommend him because it made a huge difference <wbr class="w480 w960"></wbr>after spending time at other <wbr class="w481 w961 w1799"></wbr>dealers.</p><p><em data-grid-id="d3c86371-329e-410d-8b73-00fe8007a927"></em></p></div></div></article><article subject="chapter" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch uninverted vertical collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_article chapter stack column i last_chapter w_paragraph w_text w_long_paragraph w_long_text stack column" itemid="a2e61230-0682-4ede-be8a-f65a79db14e7" itemtype="text" diff_index="1" index="column" kind="stack" score="2.625" missed="0.375" tag="article" id="u-a2e61230-0682-4ede-be8a-f65a79db14e7"><div kind="group" index="column" class="group column group column" id="u-a2e61230-0682-4ede-be8a-f65a79db14e7-g-column"><div kind="text" index="paragraph" class="text-decoration long long_paragraph long_text text paragraph vfld-leader vfld-trailer text paragraph" specificity="0.25" itemprop="text" id="u-a2e61230-0682-4ede-be8a-f65a79db14e7-g-column-t-paragraph"><p><span class="first-letter">O</span>utstanding experience! I drove off in a 2014 Civic. This was <wbr class="w480 w960"></wbr>the best experience ever. <wbr class="w481 w961 w1799"></wbr>James was the second salesman I <wbr class="w480 w960 w1800"></wbr>met at Honda and I told him I wanted to continue <wbr class="w481 w961 w1799"></wbr>working <wbr class="w480 w960"></wbr>with him. James didn't try to "sell" me the vehicle. He <wbr class="w480 w960"></wbr>answered <wbr class="w1800"></wbr>my questions and <wbr class="w481 w961 w1799"></wbr>never pressured me. I told him I <wbr class="w480 w960"></wbr>was also looking at a Prius. He wisely didn't say anything <wbr class="w480 w481 w960 w961 w1799"></wbr>negative <wbr class="w1800"></wbr>about Toyota. He understood that choosing a car is <wbr class="w480 w960"></wbr>a personal choice. The <wbr class="w481 w961 w1799"></wbr>incredible professionalism was very <wbr class="w480 w960"></wbr>much <wbr class="w1800"></wbr>appreciated. </p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>I</span> highly recommend James...and am telling my friends to see <wbr class="w480 w960"></wbr>the deals at Honda. This is <wbr class="w1799"></wbr>my <wbr class="w481 w961"></wbr>first Honda and they have <wbr class="w480 w960 w1800"></wbr>won my allegiance and I will definitely be a repeat customer!</p><p><em data-grid-id="55ebe560-ee56-4055-9e0c-c8709823713d"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>Google Review - 2014</em></p></div></div></article><article subject="panel" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_center uninverted vertical collapsed full line_padding_aside_inside text_width_full group_h_align_none text_align_center flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_small panel stack heading i first_panel last_panel w_headline w_title w_decoration w_short_headline w_short_title stack heading" itemid="u-page-alternate" itemtype="alternate" diff_index="2" index="heading" kind="stack" score="1.875" missed="0.125" tag="article" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-alternate"><div kind="group" index="heading" class="group heading group heading" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-alternate-g-heading"><h1 kind="title" index="headline" class="short short_headline short_title title headline vfld-leader vfld-trailer title headline" specificity="0.25" itemprop="title" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-alternate-g-heading-t-headline"><a class="text-decoration" href="../rss.xml" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-alternate-g-heading-t-headline-a">BayAreaCarGuy.com feed</a></h1></div></article><section kind="layout" style="position: relative" sequence="one" role="header" diff_index="0" index="one" class="layout one i first_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_short_headline w_short_title layout one" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-desktop-l-one"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout header layout one" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-desktop-l-one-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="article" diff_index="0" index="one" class="layout one i w_headline w_title w_paragraph w_text w_separator w_decoration w_leader w_short_headline w_short_title w_long_paragraph w_long_text layout one" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-desktop-l-one-2"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_texts colors-use-same-as-previous layout one i first_layout last_layout article layout one" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-desktop-l-one-2-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="footer" diff_index="0" index="one" class="layout one i last_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_short_headline w_short_title layout one" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-desktop-l-one-3"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout footer layout one" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-desktop-l-one-3-l-one"></div><style id="u-b89264e8-97a9-4089-9df7-06dec72110b9-color">body{background-color: rgba(249, 250, 248, 1)}</style></section><section kind="layout" style="position: relative" sequence="one" role="header" diff_index="0" index="one" class="layout one i first_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_short_headline w_short_title layout one" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-cinema-l-one"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout header layout one" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-cinema-l-one-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="article" diff_index="0" index="one" class="layout one i w_headline w_title w_paragraph w_text w_separator w_decoration w_leader w_short_headline w_short_title w_long_paragraph w_long_text layout one" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-cinema-l-one-2"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_texts colors-use-same-as-previous layout one i first_layout last_layout article layout one" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-cinema-l-one-2-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="footer" diff_index="0" index="one" class="layout one i last_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_short_headline w_short_title layout one" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-cinema-l-one-3"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout footer layout one" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-cinema-l-one-3-l-one"></div><style id="u-b89264e8-97a9-4089-9df7-06dec72110b9-color">body{background-color: rgba(249, 250, 248, 1)}</style></section></div><script href="./client.js">(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
+</div></div></article><article subject="chapter" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch uninverted vertical collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_article chapter stack column i w_paragraph w_text w_long_paragraph w_long_text stack column" itemid="4b7c21d7-eeda-4497-9d62-f2acaa8675b4" itemtype="text" diff_index="1" index="column" kind="stack" score="0.625" missed="0.375" tag="article" id="u-4b7c21d7-eeda-4497-9d62-f2acaa8675b4"><div kind="group" index="column" class="group column group column" id="u-4b7c21d7-eeda-4497-9d62-f2acaa8675b4-g-column"><div kind="text" index="paragraph" class="text-decoration long long_paragraph long_text text paragraph vfld-leader vfld-trailer text paragraph" specificity="0.25" itemprop="text" id="u-4b7c21d7-eeda-4497-9d62-f2acaa8675b4-g-column-t-paragraph"><p><span class="first-letter">I</span> want to show my appreciation for James Johnson. I first <wbr class="w480 w960"></wbr>leased a car from him three <wbr class="w1799"></wbr>years <wbr class="w481 w961"></wbr>ago and remember how <wbr class="w480 w960 w1800"></wbr>helpful he was. When it came time to get another car for me, <wbr class="w480 w960 w1799"></wbr>as well <wbr class="w481 w961"></wbr>as one for my daughter, I returned for James' help. <wbr class="w480 w960 w1800"></wbr>Again, his integrity, willingness <wbr class="w1799"></wbr>to go the <wbr class="w481 w961"></wbr>extra miles, and his <wbr class="w480 w960"></wbr>gentle manner made what is usually a stressful situation <wbr class="w480 w960 w1799 w1800"></wbr>extremely <wbr class="w481 w961"></wbr>easy. </p><p><em data-grid-id="b605e749-31f2-420f-91e9-71b3d7caec04"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>Letter to the General Manager - June 2015</em></p><p><em data-grid-id="00ac7f8b-701b-46c4-b7a1-f43bc96de9b0"></em></p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>I</span> want to thank you again for such a seamless car-looking <wbr class="w480 w960"></wbr>and buying experience! I am <wbr class="w481 w961 w1799"></wbr>thoroughly spoiled, and now <wbr class="w480 w960 w1800"></wbr>forever ruined if I attempt it without you! If only every <wbr class="w480 w960"></wbr>saleman <wbr class="w481 w961 w1799"></wbr>could have the intelligence, patience, and heart you <wbr class="w480 w960"></wbr>bring!</p><p><em data-grid-id="ae80cd57-b9ed-4bda-b7d9-c131e8a7ef62"></em></p></div></div></article><article subject="chapter" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch uninverted vertical collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_article chapter stack column i w_paragraph w_text w_long_paragraph w_long_text stack column" itemid="f0f14b68-94f0-407f-9558-08efa524a885" itemtype="text" diff_index="1" index="column" kind="stack" score="0.625" missed="0.375" tag="article" id="u-f0f14b68-94f0-407f-9558-08efa524a885"><div kind="group" index="column" class="group column group column" id="u-f0f14b68-94f0-407f-9558-08efa524a885-g-column"><div kind="text" index="paragraph" class="text-decoration long long_paragraph long_text text paragraph vfld-leader vfld-trailer text paragraph" specificity="0.25" itemprop="text" id="u-f0f14b68-94f0-407f-9558-08efa524a885-g-column-t-paragraph"><p><span class="first-letter">S</span>o happy we bought here. You can read my other reviews on <wbr class="w480 w960"></wbr>the horrible car dealers we <wbr class="w481 w961 w1799"></wbr>experienced prior to this. We just <wbr class="w480 w960 w1800"></wbr>bought a brand new civic, James was our sales guy. <wbr class="w1799"></wbr>Soooo <wbr class="w480 w481 w960 w961"></wbr>nice, and I think he should have some sort of best car <wbr class="w480 w960 w1800"></wbr>salesman ever! The dealer is <wbr class="w1799"></wbr>nice <wbr class="w481 w961"></wbr>clean, and our son enjoyed <wbr class="w480 w960"></wbr>the free popcorn. Just an awesome experience here. We <wbr class="w1799"></wbr>will <wbr class="w480 w960 w1800"></wbr>be <wbr class="w481 w961"></wbr>back when we need a new car.</p><p><em data-grid-id="fea3523c-61b1-467a-8bad-acf5d2a7aeb9"></em></p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>B</span>uying my Honda Accord was A very nice experience for me <wbr class="w480 w960"></wbr>due to James Johnson that <wbr class="w481 w961 w1799"></wbr>answered all of the many <wbr class="w480 w960 w1800"></wbr>questions I had about cars and help me find the right car ; <wbr class="w480 w960"></wbr>then he <wbr class="w481 w961 w1799"></wbr>helped me to understanding the security features, the <wbr class="w480 w960 w1800"></wbr>electronic devices and gadgets in <wbr class="w1799"></wbr>the <wbr class="w481 w961"></wbr>car and taught me how <wbr class="w480 w960"></wbr>to use them. He had patience and kindness, even after the <wbr class="w1800"></wbr>car <wbr class="w480 w960 w1799"></wbr>was <wbr class="w481 w961"></wbr>sold he kept helping me.</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>S</span>o I will recommend him because it made a huge difference <wbr class="w480 w960"></wbr>after spending time at other <wbr class="w481 w961 w1799"></wbr>dealers.</p><p><em data-grid-id="d3c86371-329e-410d-8b73-00fe8007a927"></em></p></div></div></article><article subject="chapter" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch uninverted vertical collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_article chapter stack column i last_chapter w_paragraph w_text w_long_paragraph w_long_text stack column" itemid="a2e61230-0682-4ede-be8a-f65a79db14e7" itemtype="text" diff_index="1" index="column" kind="stack" score="0.625" missed="0.375" tag="article" id="u-a2e61230-0682-4ede-be8a-f65a79db14e7"><div kind="group" index="column" class="group column group column" id="u-a2e61230-0682-4ede-be8a-f65a79db14e7-g-column"><div kind="text" index="paragraph" class="text-decoration long long_paragraph long_text text paragraph vfld-leader vfld-trailer text paragraph" specificity="0.25" itemprop="text" id="u-a2e61230-0682-4ede-be8a-f65a79db14e7-g-column-t-paragraph"><p><span class="first-letter">O</span>utstanding experience! I drove off in a 2014 Civic. This was <wbr class="w480 w960"></wbr>the best experience ever. <wbr class="w481 w961 w1799"></wbr>James was the second salesman I <wbr class="w480 w960 w1800"></wbr>met at Honda and I told him I wanted to continue <wbr class="w481 w961 w1799"></wbr>working <wbr class="w480 w960"></wbr>with him. James didn't try to "sell" me the vehicle. He <wbr class="w480 w960"></wbr>answered <wbr class="w1800"></wbr>my questions and <wbr class="w481 w961 w1799"></wbr>never pressured me. I told him I <wbr class="w480 w960"></wbr>was also looking at a Prius. He wisely didn't say anything <wbr class="w480 w481 w960 w961 w1799"></wbr>negative <wbr class="w1800"></wbr>about Toyota. He understood that choosing a car is <wbr class="w480 w960"></wbr>a personal choice. The <wbr class="w481 w961 w1799"></wbr>incredible professionalism was very <wbr class="w480 w960"></wbr>much <wbr class="w1800"></wbr>appreciated. </p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>I</span> highly recommend James...and am telling my friends to see <wbr class="w480 w960"></wbr>the deals at Honda. This is <wbr class="w1799"></wbr>my <wbr class="w481 w961"></wbr>first Honda and they have <wbr class="w480 w960 w1800"></wbr>won my allegiance and I will definitely be a repeat customer!</p><p><em data-grid-id="55ebe560-ee56-4055-9e0c-c8709823713d"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>Google Review - 2014</em></p></div></div></article><article subject="panel" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_center uninverted vertical collapsed full line_padding_aside_inside text_width_full group_h_align_none text_align_center flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_small panel stack heading i first_panel last_panel w_headline w_title w_decoration w_short_headline w_short_title stack heading" itemid="u-page-alternate" itemtype="alternate" diff_index="2" index="heading" kind="stack" score="1.875" missed="0.125" tag="article" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-alternate"><div kind="group" index="heading" class="group heading group heading" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-alternate-g-heading"><h1 kind="title" index="headline" class="short short_headline short_title title headline vfld-leader vfld-trailer title headline" specificity="0.25" itemprop="title" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-alternate-g-heading-t-headline"><a class="text-decoration" href="../rss.xml" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-alternate-g-heading-t-headline-a">BayAreaCarGuy.com feed</a></h1></div></article><section kind="layout" style="position: relative" sequence="one" role="header" diff_index="0" index="one" class="layout one i first_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_short_headline w_short_title layout one" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-desktop-l-one"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout header layout one" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-desktop-l-one-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="article" diff_index="0" index="one" class="layout one i w_headline w_title w_paragraph w_text w_separator w_decoration w_leader w_short_headline w_short_title w_long_paragraph w_long_text layout one" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-desktop-l-one-2"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_texts colors-use-same-as-previous layout one i first_layout last_layout article layout one" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-desktop-l-one-2-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="footer" diff_index="0" index="one" class="layout one i last_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_short_headline w_short_title layout one" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-desktop-l-one-3"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout footer layout one" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-desktop-l-one-3-l-one"></div><style id="u-b89264e8-97a9-4089-9df7-06dec72110b9-color">body{background-color: rgba(249, 250, 248, 1)}</style></section><section kind="layout" style="position: relative" sequence="one" role="header" diff_index="0" index="one" class="layout one i first_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_short_headline w_short_title layout one" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-cinema-l-one"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout header layout one" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-cinema-l-one-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="article" diff_index="0" index="one" class="layout one i w_headline w_title w_paragraph w_text w_separator w_decoration w_leader w_short_headline w_short_title w_long_paragraph w_long_text layout one" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-cinema-l-one-2"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_texts colors-use-same-as-previous layout one i first_layout last_layout article layout one" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-cinema-l-one-2-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="footer" diff_index="0" index="one" class="layout one i last_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_short_headline w_short_title layout one" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-cinema-l-one-3"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout footer layout one" id="u-b89264e8-97a9-4089-9df7-06dec72110b9-cinema-l-one-3-l-one"></div><style id="u-b89264e8-97a9-4089-9df7-06dec72110b9-color">body{background-color: rgba(249, 250, 248, 1)}</style></section></div><script href="./client.js">(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 /*! Hammer.JS - v1.1.3 - 2014-05-20
  * http://eightmedia.github.io/hammer.js
  *
@@ -1658,9 +1693,11 @@ global.Hamburger = require('./hamburger');
 
 global.Highlighter = require('./highlighter');
 
+global.Player = require('./player');
+
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"./animator":3,"./hamburger":4,"./highlighter":5,"./paginator":7,"hammerjs/hammer.min.js":1,"picturefill/dist/picturefill.min.js":2}],7:[function(require,module,exports){
+},{"./animator":3,"./hamburger":4,"./highlighter":5,"./paginator":7,"./player":8,"hammerjs/hammer.min.js":1,"picturefill/dist/picturefill.min.js":2}],7:[function(require,module,exports){
 var appendPage, mainpage, page, ref, ref1, urls;
 
 page = require('./reflow');
@@ -1761,7 +1798,192 @@ module.exports = function() {
 };
 
 
-},{"./reflow":8}],8:[function(require,module,exports){
+},{"./reflow":9}],8:[function(require,module,exports){
+var Player, Youtube, iframe, revealed, rgb2hex;
+
+iframe = null;
+
+Youtube = null;
+
+Player = function(id, src, width, height, color, bg) {
+  if (src.indexOf('youtube') > -1) {
+    src += '&color=white&theme=light&modestbranding=1';
+  }
+  src = src.replace('COLOR', color).replace('BG', bg);
+  if (location.protocol !== 'https:') {
+    src = src.replace('https:', 'http:');
+  }
+  iframe = document.createElement('iframe');
+  iframe.id = id;
+  iframe.setAttribute('allowfullscreen', '');
+  iframe.src = src;
+  iframe.width = width;
+  iframe.height = height;
+  iframe.style.width = '100%';
+  iframe.style.height = '100%';
+  iframe.style.left = 0;
+  iframe.style.right = 0;
+  iframe.style.position = 'absolute';
+  iframe.style.opacity = 0.2;
+  iframe.onload = function() {
+    return iframe.style.opacity = 1;
+  };
+  return iframe;
+};
+
+revealed = null;
+
+Player.reveal = function(iframe) {
+  var diff, i, left, len, parent, play, ref, ref1, sibling, target, top, translateX, translateY;
+  while (target = (target || iframe).parentNode) {
+    if ((ref = target.classList) != null ? ref.contains('media') : void 0) {
+      if (target.parentNode.classList.contains('group')) {
+        parent = target.parentNode;
+      } else {
+        parent = target;
+      }
+      revealed = iframe;
+      play = parent.getElementsByClassName('play')[0];
+      left = target.offsetWidth - play.offsetLeft - play.offsetWidth;
+      top = -play.offsetTop;
+      play.style.webkitTransformOrigin = 'top right';
+      play.style.webkitTransform = 'translateX(' + left + 'px) translateY(' + top + 'px) scale(0.5)';
+      target.classList.add('revealed');
+      ref1 = parent.parentNode.childNodes;
+      for (i = 0, len = ref1.length; i < len; i++) {
+        sibling = ref1[i];
+        if (sibling.nodeType === 1 && sibling !== parent) {
+          translateX = translateY = null;
+          if ((diff = sibling.offsetLeft + sibling.offsetWidth - parent.offsetLeft) > 2 && parent.offsetLeft >= sibling.offsetLeft) {
+            translateX = -diff;
+          }
+          if ((diff = target.offsetLeft + target.offsetWidth - sibling.offsetLeft) > 2 && parent.offsetLeft <= sibling.offsetLeft) {
+            if (!translateX || Math.abs(diff) < Math.abs(translateX)) {
+              translateX = diff;
+            }
+          }
+          if ((diff = sibling.offsetTop + sibling.offsetHeight - parent.offsetTop) > 2 && parent.offsetTop >= sibling.offsetTop) {
+            translateY = -diff;
+          }
+          if ((diff = target.offsetTop + target.offsetHeight - sibling.offsetTop) > 2 && parent.offsetTop <= sibling.offsetTop) {
+            if (!translateY || Math.abs(diff) < Math.abs(translateY)) {
+              translateY = diff;
+            }
+          }
+          if (Math.abs(translateX) > Math.abs(translateY)) {
+            sibling.style.webkitTransform = 'translateY(' + translateY + 'px)';
+          } else {
+            sibling.style.webkitTransform = 'translateX(' + translateX + 'px)';
+          }
+          console.log(translateX, translateY, sibling);
+        }
+      }
+    }
+  }
+};
+
+Player.hide = function(iframe) {
+  var i, len, parent, play, ref, ref1, sibling;
+  while (parent = (parent || iframe).parentNode) {
+    if ((ref = parent.classList) != null ? ref.contains('revealed') : void 0) {
+      parent.classList.remove('revealed');
+      if (parent.parentNode.classList.contains('group')) {
+        parent = parent.parentNode;
+      }
+      play = parent.getElementsByClassName('play')[0];
+      play.style.webkitTransform = '';
+      ref1 = parent.parentNode.childNodes;
+      for (i = 0, len = ref1.length; i < len; i++) {
+        sibling = ref1[i];
+        sibling.style.webkitTransform = '';
+      }
+    }
+  }
+  return revealed = null;
+};
+
+window.addEventListener('resize', function() {
+  return setTimeout(function() {
+    return requestAnimationFrame(function() {
+      if (revealed) {
+        if (revealed.offsetWidth) {
+          return Player.reveal(revealed);
+        } else {
+          return Player.stop(revealed);
+        }
+      }
+    });
+  }, 10);
+});
+
+Player.stop = function(iframe) {
+  var old;
+  old = iframe;
+  iframe.style.opacity = 0;
+  setTimeout(function() {
+    var ref;
+    return (ref = old.parentNode) != null ? ref.removeChild(old) : void 0;
+  }, 300);
+  Player.hide(iframe);
+  return iframe = null;
+};
+
+document.addEventListener('click', function(e) {
+  var bg, color, header, parent, play, ref, ref1, results, styles, target;
+  target = e.target;
+  results = [];
+  while (target) {
+    if ((ref = target.classList) != null ? ref.contains('media') : void 0) {
+      if (play = target.getElementsByClassName('play')[0]) {
+        if ((iframe != null ? iframe.parentNode : void 0) === target) {
+          Player.stop(iframe);
+        } else {
+          if (iframe) {
+            Player.stop(iframe);
+          }
+          color = bg = null;
+          header = (ref1 = target.parentNode.parentNode.getElementsByClassName('title')[0]) != null ? ref1.firstChild : void 0;
+          parent = header || play;
+          while (parent) {
+            if (parent.nodeType === 1) {
+              styles = window.getComputedStyle(parent);
+              if (styles.color.indexOf('rgba') === -1 || !styles.color.match(/,\s*0\)/)) {
+                if (color == null) {
+                  color = styles.color;
+                }
+              }
+              if (styles['background-color'].indexOf('rgba') === -1 || !styles['background-color'].match(/,\s*0\)/)) {
+                if (bg == null) {
+                  bg = styles['background-color'];
+                }
+              }
+            }
+            parent = parent.parentNode;
+          }
+          iframe = Player(play.id + '-player', play.getAttribute('data-src'), play.getAttribute('data-width'), play.getAttribute('data-height'), rgb2hex(color), rgb2hex(bg));
+          target.appendChild(iframe);
+          Player.reveal(iframe);
+        }
+        e.preventDefault();
+        break;
+      }
+    }
+    results.push(target = target.parentNode);
+  }
+  return results;
+});
+
+rgb2hex = function(rgb) {
+  rgb = rgb.match(/^rgba?[\s+]?\([\s+]?(\d+)[\s+]?,[\s+]?(\d+)[\s+]?,[\s+]?(\d+)[\s+]?/i);
+  if (rgb && rgb.length === 4) {
+    return ("0" + parseInt(rgb[1], 10).toString(16)).slice(-2) + ("0" + parseInt(rgb[2], 10).toString(16)).slice(-2) + ("0" + parseInt(rgb[3], 10).toString(16)).slice(-2);
+  }
+};
+
+window.exports = window.Player = Player;
+
+
+},{}],9:[function(require,module,exports){
 module.exports = {
   reflow: function(container) {
     var counter, heights, hidden, hole, holed, holes, i, id, ids, index, j, k, l, last, layout, layouts, len, len1, len2, len3, m, mutations, name, node, ref, ref1, ref2, stack, stacks;
@@ -2026,7 +2248,7 @@ module.exports = function(callback) {
   } else {
     protocol = '';
   }
-  url = protocol + "//cdn.thegrid.io/gss/gss-document/1.2.4/gss.document.parser.js";
+  url = protocol + "//cdn.thegrid.io/gss/gss-document/1.2.8/gss.document.parser.js";
   if (location.toString().indexOf('//localhost:8080') > -1) {
     return module.exports.load(protocol + "//localhost:8080/node_modules/gss-document/dist/gss.document.parser.js", callback, function() {
       return module.exports.load(url, callback);
