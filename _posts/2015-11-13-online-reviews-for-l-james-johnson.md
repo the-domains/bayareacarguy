@@ -3,20 +3,23 @@ inFeed: true
 hasPage: true
 inNav: false
 inLanguage: null
-starred: false
 keywords: []
-description: ''
-datePublished: '2015-11-13T20:58:32.861Z'
-dateModified: '2015-11-13T20:58:06.641Z'
-title: Online Reviews for L. James Johnson
-authors: []
-publisher:
-  name: null
-  domain: null
-  url: null
-  favicon: null
+description: >-
+  My daughter just bought her first car, a new Civic, from Marin Honda. Salesman
+  was L James Johnson. Mr. Johnson treated my daughter very well. He clearly
+  knows a great deal about the cars he is selling and explained the options and
+  features patiently and completely. The price my daughter paid was, in my
+  opinion, very fair. No silly selling tactics like those that my daughter
+  encountered at other dealerships. (It was these ridiculous tactics that
+  prompted me to come up from Southern California to provide moral support.
+datePublished: '2016-07-13T00:51:33.721Z'
+dateModified: '2016-07-13T00:38:34.863Z'
+title: ''
 sourcePath: _posts/2015-11-13-online-reviews-for-l-james-johnson.md
-published: true
+author: []
+authors: []
+publisher: null
+starred: false
 url: online-reviews-for-l-james-johnson/index.html
 _type: Article
 
@@ -26,7 +29,6 @@ My daughter just bought her first car, a new Civic, from Marin Honda. Salesman w
 _Google Review - August 2015_
 
 I really feel grateful for your help with buying the car. Your lovely, grounded presence was such a gift as I went through the process. And I am so happy with my beautiful new Civic
-null
 
 __
 
@@ -50,7 +52,7 @@ So I will recommend him because it made a huge difference after spending time at
 
 __
 
-Outstanding experience!  I drove off in a 2014 Civic.  This was the best experience ever.  James was the second salesman I met at Honda and I told him I wanted to continue working with him.  James didn't try to "sell" me the vehicle.  He answered my questions and never pressured me.  I told him I was also looking at a Prius.  He wisely didn't say anything negative about Toyota.  He understood that choosing a car is a personal choice.  The incredible professionalism was very much appreciated.  
+Outstanding experience! I drove off in a 2014 Civic. This was the best experience ever. James was the second salesman I met at Honda and I told him I wanted to continue working with him. James didn't try to "sell" me the vehicle. He answered my questions and never pressured me. I told him I was also looking at a Prius. He wisely didn't say anything negative about Toyota. He understood that choosing a car is a personal choice. The incredible professionalism was very much appreciated. 
 
 I highly recommend James...and am telling my friends to see the deals at Honda. This is my first Honda and they have won my allegiance and I will definitely be a repeat customer!
 
